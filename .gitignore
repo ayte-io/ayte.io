@@ -1,0 +1,10 @@
+# IDE files
+.idea
+
+# Environment artifacts
+node_modules
+*-error.log
+
+# Build artifacts
+dist
+tmp
