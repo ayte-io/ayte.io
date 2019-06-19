@@ -1,0 +1,31 @@
+{
+  "name": "@ayte/ui.ayte.io",
+  "version": "1.0.0",
+  "description": "My webpack project",
+  "main": "dist/index.html",
+  "repository": "git@github.com:ayte-io/ayte.io.git",
+  "author": "etki <etki@ayte.team>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@types/html-webpack-plugin": "^3.2.0",
+    "@types/mini-css-extract-plugin": "^0.2.1",
+    "@types/node": "^12.0.8",
+    "@types/webpack": "^4.4.32",
+    "@webpack-cli/init": "^0.2.2",
+    "css-loader": "^3.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.7.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.2",
+    "webpack": "^4.34.0",
+    "webpack-cli": "^3.3.4"
+  },
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  }
+}
